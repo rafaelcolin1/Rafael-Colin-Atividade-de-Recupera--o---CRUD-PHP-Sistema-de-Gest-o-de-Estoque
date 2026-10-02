@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a7a6a6;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 {
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+    gap: 5px;
+}
+form input, form textarea, form select {
+    padding: 2px;
+}
+
+.body_index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+        background-color: #a7a6a6;
+}
+
+.table_animais {
+    background-color: #f3e5da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px #4b3a30;
+
+}
